@@ -1,0 +1,369 @@
+body{
+    display:flex;
+    flex-direction:column;
+}
+header{
+    display: flex;
+    width: 81.6rem;
+    height: 10rem;
+    padding: 2rem;
+    margin-bottom: 0rem;
+    background-color:#CBCBCB;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+.circle1{
+    display: flex;
+    flex-direction: row;
+    width: 2rem;
+    height: 2rem;
+    background-color: #F20707;
+    border-radius: 100rem;
+    margin-top:2rem;
+}
+.circle2{
+    display: flex;
+    flex-direction: row;
+    width: 2rem;
+    height: 2rem;
+    background-color: #D9B13B;
+    border-radius: 100rem;
+    margin-top: 2rem;
+}
+.circle3{
+    display: flex;
+    flex-direction: row;
+    width: 2rem;
+    height: 2rem;
+    background-color: #085CA6;
+    border-radius: 100rem;
+    margin-top: 2rem;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    width: 70rem;
+    height: 5rem;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+}
+section{
+    display:flex;
+    width: 81.6rem;
+    height: 5rem;
+    padding: 0rem;
+    background-color:#464E5D;
+    margin-top: 0rem;
+}
+.rectangle{
+    display: flex;
+    flex-direction:row;
+    width: 15rem;
+    height: 2rem;
+    padding: 1.5rem;
+    background-color: #DF4645;
+    margin-left: 62rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    
+}
+.usuario{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    bottom: 3rem;
+    top: 1rem;
+}
+.lupa{
+    width: 5rem;
+    height: 5rem;
+    background-color: transparent;
+    margin-top: 0rem;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    width: 81.6rem;
+    height: 102rem;
+    background-color: transparent;
+}
+.izquierdo{
+    display: flex;
+    flex-direction: column;
+    width: 48rem;
+    height: 102rem;
+    background-color: transparent;
+    margin-top: 0rem;
+}
+nav{
+    display: flex;
+    width: 48rem;
+    height: 30rem;
+    background-color:transparent;
+    margin-left: 0.5rem;
+    background-size: 46.6rem;
+    background-position: 0rem;
+}
+.imagen{
+    display: flex;
+    width: 48rem;
+    height: 29rem;
+    background:url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F56fba7d7-2f6d-43d3-8990-4b2ce0967fca%2Fspenser-sembrat-J23AXE8tPDo-unsplash.jpg?table=block&id=7f85ae2d-ffdc-44fc-adfb-e9a0349b4ccb&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+    background-size: 46.6rem;
+    background-position: 0rem;
+    left:0rem;
+    border-radius: 2rem;
+}
+.cuadro1{
+    display: flex;
+    width: 38rem;
+    height: 3rem;
+    background:#464E5D87;
+    margin-top: 24rem;
+    margin-left: 1rem;
+    align-items: center;
+}
+a{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    color: #FFFFFF;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    width: 48rem;
+    height: 16rem;
+    background-color:transparent;
+    margin-left: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.lenguaje1{
+    display: flex;
+    width: 16rem;
+    height: 14rem;
+    background:url(https://assets2-programarya-com.juandmegon.com/img/Cursos/Java/Java-Basico/Java-Basico-header.png);
+    background-size: 24.5rem;
+    background-position: -4.8rem;
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+    }
+    .texto1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+.lenguaje2{
+    display: flex;
+    width: 16rem;
+    height: 14rem;
+    background:url(https://assets2-programarya-com.juandmegon.com/img/Cursos/Python/Python-header.png);
+    background-size: 26rem;
+    background-position: -5.7rem;
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+    }
+    .texto2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        color:rgb(0, 0, 0);
+    }
+.lenguaje3{
+    display: flex;
+    width: 16rem;
+    height: 14rem;
+    background: url(https://2.bp.blogspot.com/-DrHDBZWMWC0/WyLLvXElCpI/AAAAAAAAACg/BpyMuVGLcaQJ3ur3HgsVqcgZ_di2-Qb1QCLcBGAs/s1600/c-plus-plus-logo.png);
+    background-size: 14rem;
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+    }
+    .texto3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        color:#085CA6;
+    }
+.lenguaje4{
+    display: flex;
+    width: 16rem;
+    height: 14rem;
+    background:url(https://i.blogs.es/0033ff/swift/1366_2000.jpg);
+    background-size: 21.5rem;
+    background-position: -4rem;
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+    }
+    .texto4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+.lenguaje5{
+    display: flex;
+    width: 16rem;
+    height: 14rem;
+    background:url(https://disenowebakus.net/imagenes/articulos/logo-php-hypertext-preprocessor.jpg);
+    background-size: 27rem;
+    background-position: -6.1rem;
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+    }
+    .texto5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+.lenguaje6{
+    display: flex;
+    width: 16rem;
+    height: 14rem;
+    background:url(https://image.shutterstock.com/image-vector/vector-round-icon-web-shield-260nw-406785130.jpg);
+    background-size: 25rem;
+    background-position: -5rem;
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+    }
+    .texto6{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+footer{
+    display: flex;
+    width: 48rem;
+    height: 30rem;
+    background-color: transparent;
+    margin-left: 1rem;
+    flex-direction: row;
+}
+.cuadro3{
+    display: flex;
+    width: 13rem;
+    height: 9rem;
+    background:url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb5872d08-137f-407c-97ff-d7386ec58f44%2FLogoSCL-01.png?table=block&id=05f1d4b7-8f01-4284-b2c8-dd53072fab5a&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+    background-size: 15rem;
+    background-position: -1rem;
+    margin-top: 3rem;
+    margin-left: 0rem;
+}
+.lineas{
+    display: flex;
+    flex-direction: column;
+    width: 32.7rem;
+    height: 15rem;
+    background-color: transparent;
+    margin-top: 3rem;
+}
+.linea1{
+    display: flex;
+    width: 32.7rem;
+    height: 3rem;
+    background-color: transparent;
+    margin-bottom: 0rem;
+    }
+    .texto7{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4rem;
+        color: #464E5D;
+        text-align: left;
+    }
+.linea2{
+    display: flex;
+    width: 32.7rem;
+    height: 2.5rem;
+    background-color:transparent;
+    margin-top: 0rem;
+    }
+    .texto8{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4rem;
+        color: #464E5D;
+        text-align: left;
+    }
+.linea3{
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+    background-color:transparent;
+    margin-top: 0rem;
+    }
+    .texto9{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4rem;
+        color: #464E5D;
+        text-align: left;
+    }
+.derecho{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 93rem;
+    background-color: transparent;
+    margin-top: 0rem;
+}
+aside{
+    display: flex;
+    width: 30rem;
+    height: 100rem;
+    background-color: #E5E5E5;
+    flex-direction: column;
+
+}
+.cuadroT{
+    display:flex;
+    width: 15rem;
+    height: 3rem;
+    background-color: transparent;
+}
+.ventana1{
+    display: flex;
+    width: 18rem;
+    height: 10rem;
+    background:url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F68b0b3a1-024b-4106-a5b3-a971be72ef71%2Fhtml.jpg?table=block&id=2557679d-a7b2-46c8-a961-51e8869165ac&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+    background-size: 19rem;
+    background-position: -0.5rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+.ventana2{
+    display: flex;
+    width: 18rem;
+    height: 10rem;
+    background:url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fce88424f-8c4c-4516-b372-ec5035051f78%2FQue-es-CSS.jpg?table=block&id=a8b02256-ff86-4773-8f05-751baaf9f668&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+    background-size: 19rem;
+    background-position: -0.5rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+.ventana3{
+    display: flex;
+    width: 18rem;
+    height: 10rem;
+    background:url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4ffdfd4b-a83e-472f-8703-1c5ac56c5116%2Fjs-1.png?table=block&id=a5bcfcfb-41da-423d-a842-eae50eea7b6d&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+    background-size: 22rem;
+    background-position: -2.5rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+.ventana4{
+    display: flex;
+    width: 18rem;
+    height: 10rem;
+    background: url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc6d8f96d-c108-4bf3-ac7c-f4f47cda1c35%2Fque-es-SQL.png?table=block&id=cd364e4e-a567-42e1-98f4-44638fb2b382&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+    background-size: 20rem;
+    background-position: -1.2rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+.ventana5{
+    display: flex;
+    width: 27.5rem;
+    height: 25rem;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png);
+    background-size: 50rem;
+    background-position: -11rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
